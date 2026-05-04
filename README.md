@@ -69,11 +69,27 @@ The goal is to convert raw data into meaningful business insights and visualize 
 ## 📁 Project Structure
 superstore-sales-analysis/
 │
-├── data/ → Raw & Cleaned dataset
-├── python/ → Data cleaning scripts
-├── sql/ → SQL queries
-├── dashboard/ → Excel dashboard
-├── reports/ → Project report
+├── data/
+│   ├── raw_superstore.csv
+│   └── cleaned_superstore.csv
+│
+├── python/
+│   └── data_cleaning.ipynb
+│
+├── sql/
+│   └── analysis_queries.sql
+│
+├── dashboard/
+│   ├── superstore_dashboard.xlsx
+│   └── dashboard.png
+│
+├── reports/
+│   └── Project_2_Superstore_Report.pdf
+│
+├── docs/
+│   └── project_overview.md
+│
+└── README.md
 
 ---
 
